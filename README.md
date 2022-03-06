@@ -7,9 +7,9 @@ Lane detection is an essential element of self-driving cars and autonomous vehic
 ## Objective
 Build a model to detect lane lines in real-time. We will do this using the concepts of computer vision using the OpenCV library.
 ## Steps
-1. Read in Video Frames
+1. Load in Parkinson Dataset
 2. Frame Mask Creation
-3. Image Preprocessing
+3. Feature Engineering 
     * Image Thresholding
     * Hough line Transformation
 4. Video Preparation
