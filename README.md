@@ -1,6 +1,6 @@
 # Parkinsons-Detection-PCA-XGBoost
 ## Context
-Lane detection is an essential element of self-driving cars and autonomous vehicles. Using lane detection, the vehicle will know where to go and avoid the risk of running into other lanes or getting off the road. This can prevent the car from drifting off the driving lane. 
+Through the used of computer science and medicine, recent discoveries unveil new algorithms to improve health information reporting on clinical decisions. For example, detecting Parkinson’s Disease through machine learning can bring insight to such decisions. 
 
 ## Dataset
 * Kaggle Dataset - [Parkinson's Data Set](https://www.kaggle.com/nidaguler/parkinsons-data-set)
@@ -11,11 +11,9 @@ Lane detection is an essential element of self-driving cars and autonomous vehic
 
 ## Steps
 1. Load in Parkinson Dataset
-2. Frame Mask Creation
-3. Feature Engineering 
-    * Image Thresholding
-    * Hough line Transformation
-4. Video Preparation
+2. Perform EDA with PCA
+3. Use MinMaxScaler for reduce label class for -1 to 1
+4. Fit and evaluate with XGBoost
 
 ## Results
 * PCA was used to successfuly preserve the datasets variance by reduce the number of columns to 2 or 3.
@@ -25,3 +23,4 @@ Lane detection is an essential element of self-driving cars and autonomous vehic
 ## References
 * https://towardsdatascience.com/getting-started-with-xgboost-in-scikit-learn-f69f5f470a97
 * https://towardsdatascience.com/principal-component-analysis-pca-explained-visually-with-zero-math-1cbf392b9e7d
+* https://www.analyticsvidhya.com/blog/2021/05/data-science-in-healthcare/
