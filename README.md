@@ -16,7 +16,7 @@ Build a model to detect lane lines in real-time. We will do this using the conce
 
 ## Results
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/77241761/156899304-08e49bb9-9dec-4bbc-84f2-6a7aca75fd15.gif)
+In this Python machine learning project, we learned to detect the presence of Parkinson’s Disease in individuals using various factors. We used an XGBClassifier for this and made use of the sklearn library to prepare the dataset. This gives us an accuracy of <b> 96.66%</b>, which is great considering the number of lines of code in this python project.
 
 
 ## References
